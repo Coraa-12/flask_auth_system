@@ -1,4 +1,4 @@
 .venv/
 .vscode/
-datausers.session.sql/
-database/data.db/
+datausers.session.sql
+data.db/
