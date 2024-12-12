@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect('data.db')
+conn = sqlite3.connect('database/data.db')
 cursor = conn.cursor()
 cursor.execute("SELECT * FROM users")
 rows = cursor.fetchall()
